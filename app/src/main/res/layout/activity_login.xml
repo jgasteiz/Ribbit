@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_button_label"
-        android:id="@+id/button"
+        android:id="@+id/loginButton"
         android:layout_below="@+id/passWordField"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_up_text"
-        android:id="@+id/signUpButton"
+        android:id="@+id/signUpLink"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textSize="20dp" />
