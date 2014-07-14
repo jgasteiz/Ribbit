@@ -32,6 +32,15 @@
             android:parentActivityName=".LoginActivity"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name=".EditFriendsActivity"
+            android:label="@string/title_activity_edit_friends"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fuzzingtheweb.ribbit.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
